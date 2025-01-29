@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="travel_recommendation.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="travel_recommendation.html" class="logo-link">
+            <img src="images/travellogo.webp" alt="Travel Explorer Logo" class="logo" />
+            <span class="website-name">Travel Explorer</span>
+          </a>
+        </div>
+        <div class="navlinks">
+          <ul class="nav-list">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="searchbar">
+          <form class="search-form" role="search" aria-label="Site Search">
+            <input
+              type="search"
+              id="search-bar"
+              class="search-input"
+              placeholder="Search destinations..."
+              aria-label="Search bar"
+            />
+            <button type="submit" class="search-btn">Search</button>
+            <button type="reset" class="reset-btn">Reset</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Welcome to Travel Explorer</h1>
+          <p class="hero-subtitle">
+            Discover breathtaking destinations, explore unique cultures, and create unforgettable memories as you plan the journey of your dreams.
+          </p>
+          <button id="btn" type="submit">Book Now</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>

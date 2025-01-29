@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-us</title>
+    <link rel="stylesheet" href="contactus.css" />
+    <link rel="stylesheet" href="travel_recommendation.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="travel_recommendation.html" class="logo-link">
+            <img
+              src="images/travellogo.webp"
+              alt="Travel Explorer Logo"
+              class="logo"
+            />
+            <span class="website-name">Travel Explorer</span>
+          </a>
+        </div>
+        <div class="navlinks">
+          <ul class="nav-list">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="searchbar">
+          <form class="search-form" role="search" aria-label="Site Search">
+            <input
+              type="search"
+              id="search-bar"
+              class="search-input"
+              placeholder="Search destinations..."
+              aria-label="Search bar"
+            />
+            <button type="submit" class="search-btn">Search</button>
+            <button type="reset" class="reset-btn">Reset</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="contactheading">
+        <h1>Contact Us</h1>
+        <div class="info">
+          <h2>Our Address</h2>
+          <p>
+            123 Travel Street, Suite 456, Travel City, T1234AB, Country
+          </p>
+          <h2>Contact Info</h2>
+          <p>Email: support@travelexplorer.com</p>
+          <p>Phone: +123-456-7890</p>
+        </div>
+      </div>
+
+      <div class="contact-container">
+        <div class="form">
+          <form>
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <textarea
+              name="message"
+              id="message"
+              rows="10"
+              placeholder="Write a message..."
+            ></textarea>
+            <button id="btn" type="submit">Submit</button>
+          </form>
+        </div>
+        
+      </div>
+    </main>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
